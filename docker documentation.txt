@@ -1,0 +1,28 @@
+#yum install docker -y 
+#which docker 
+we have to start the service
+#service docker status
+#service docker start 
+#docker --version
+#docker info
+TO CHECK IMAGES
+#docker images
+TO CHECK ALL DOCKER CONTAINERS
+#docker ps -a
+TO CHECK ONLY RUNNING CONTAINERS
+#docker ps
+CREATE CONTAINER WITH HELP OF IMAGES
+#docker run -it ubuntu /bin/bash
+RETURN BACK TO ROOT 
+#exit
+RENAME CONTAINER
+#docker rename oldname newname
+GIVE THE CONTAINER NAME WHILE CREATING
+#docker run -it --name meenakshicontainer ubuntu /bin/bash
+TO START THE CONTAINER
+#docker start container name
+TO ENTER INSIDE OF THIS CONTAINER
+#docker attach saicontainer 
+TO DELETE OR REMOVE CONTAINER
+#docker rm saicontainer 
+
